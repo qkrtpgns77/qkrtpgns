@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>사진공유 페이지</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero {
+      background-color: #343a40; /* 어두운 배경색 */
+      color: white; /* 흰색 글씨 */
+      padding: 100px 0;
+      text-align: center;
+    }
+    .card {
+      border: none;
+      transition: transform 0.3s; /* 마우스 오버시 변환 효과 */
+    }
+    .card:hover {
+      transform: translateY(-5px); /* 마우스 오버시 위로 이동하여 볼록한 효과 */
+    }
+    .card-img-top {
+      border-radius: 10px; /* 이미지 모서리 둥글게 */
+      height: 200px;
+      object-fit: cover;
+    }
+    .card-title {
+      color: #fff; /* 흰색 글씨 */
+      font-weight: bold;
+    }
+    .card-subtitle {
+      color: #eee; /* 옅은 회색 글씨 */
+    }
+    .card-text {
+      color: #ddd; /* 연한 회색 글씨 */
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="display-4">사진공유 페이지</h1>
+      <p class="lead">감성사진을 공유합니다</p>
+    </div>
+  </section>
+
+  <!-- Card Section -->
+  <section class="container mt-5">
+    <div class="row">
+      <!-- 카드 1 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://source.unsplash.com/400x300/?nature" class="card-img-top" alt="자연풍경 사진">
+          <div class="card-body">
+            <h5 class="card-title">자연풍경 사진</h5>
+            <h6 class="card-subtitle mb-2">여행사진</h6>
+            <p class="card-text">여행가서 찍은 풍경사진 입니다.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 카드 2 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://source.unsplash.com/400x300/?landscape" class="card-img-top" alt="자연풍경 사진">
+          <div class="card-body">
+            <h5 class="card-title">자연풍경 사진</h5>
+            <h6 class="card-subtitle mb-2">여행사진</h6>
+            <p class="card-text">여행가서 찍은 풍경사진 입니다.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 카드 3 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://source.unsplash.com/400x300/?scenery" class="card-img-top" alt="자연풍경 사진">
+          <div class="card-body">
+            <h5 class="card-title">자연풍경 사진</h5>
+            <h6 class="card-subtitle mb-2">여행사진</h6>
+            <p class="card-text">여행가서 찍은 풍경사진 입니다.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
